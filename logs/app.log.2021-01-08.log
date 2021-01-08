@@ -1,0 +1,226 @@
+2021-01-08 10:40:16,372 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-08 10:40:21,580 [cronTask.py] [my_listener] [ERROR] [39] 定时任务出现错误，python端终止!
+2021-01-08 10:41:50,329 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-08 10:42:01,339 [cronTask.py] [my_listener] [ERROR] [39] 定时任务出现错误，python端终止!
+2021-01-08 10:44:21,739 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-08 10:44:41,406 [cronTask.py] [my_listener] [ERROR] [39] 定时任务出现错误，python端终止!
+2021-01-08 10:46:27,739 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-08 10:46:40,004 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-08 10:46:40,006 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-08 10:46:41,004 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2021-01-08 10:46:41,005 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 10:46:43,019 [sendMsgToGo.py] [sendMsgToGo] [INFO] [19] go server 通知失败!
+2021-01-08 10:46:43,020 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-08 10:47:41,574 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-08 10:53:31,934 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-08 10:53:41,609 [cronTask.py] [my_listener] [ERROR] [39] 定时任务出现错误，python端终止!
+2021-01-08 10:55:21,065 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-08 10:55:40,008 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-08 10:55:40,009 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-08 10:55:41,008 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2021-01-08 10:55:41,009 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 10:55:43,020 [sendMsgToGo.py] [sendMsgToGo] [INFO] [19] go server 通知失败!
+2021-01-08 10:55:43,021 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-08 10:56:00,003 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-08 10:56:00,005 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-08 10:56:01,003 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2021-01-08 10:56:01,004 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 10:56:50,763 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-08 10:57:01,448 [cronTask.py] [my_listener] [ERROR] [39] 定时任务出现错误，python端终止!
+2021-01-08 11:05:06,511 [main.py] [<module>] [INFO] [11] 空气质量预测API-Python端服务启动！
+2021-01-08 11:05:21,460 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:05:21,470 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:05:21,474 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:05:21,475 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:05:22,016 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:05:22,018 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:05:24,030 [sendMsgToGo.py] [sendMsgToGo] [INFO] [19] go server 通知失败!
+2021-01-08 11:05:24,031 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:05:41,224 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:05:41,226 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:05:41,230 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:05:41,231 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:05:42,004 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:05:42,004 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:05:44,010 [sendMsgToGo.py] [sendMsgToGo] [INFO] [19] go server 通知失败!
+2021-01-08 11:05:44,012 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:06:00,045 [main.py] [<module>] [INFO] [11] 空气质量预测API-Python端服务启动！
+2021-01-08 11:06:21,352 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:06:21,356 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:06:21,360 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:06:21,361 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:06:22,013 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:06:22,017 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:06:22,036 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 11:06:22,039 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:06:41,267 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:06:41,270 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:06:41,278 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:06:41,279 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:06:42,013 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:06:42,013 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:06:42,018 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 11:06:42,019 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:07:01,284 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:07:01,289 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:07:01,296 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:07:01,297 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:07:02,017 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:07:02,018 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:07:02,023 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 11:07:02,024 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:07:21,339 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:07:21,349 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:07:21,354 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:07:21,355 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:07:22,004 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:07:22,005 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:07:22,009 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 11:07:22,010 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:07:41,413 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:07:41,418 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:07:41,421 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:07:41,422 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:07:42,003 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:07:42,004 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:07:42,011 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 11:07:42,012 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:08:01,253 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:08:01,258 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:08:01,262 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:08:01,263 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:08:02,008 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:08:02,009 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:08:02,014 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 11:08:02,015 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:08:21,280 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:08:21,290 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:08:21,295 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:08:21,296 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:08:22,004 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:08:22,005 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:08:22,009 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 11:08:22,010 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:08:41,286 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:08:41,288 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:08:41,291 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:08:41,293 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:08:42,004 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:08:42,005 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:08:42,010 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 11:08:42,011 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:09:01,256 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:09:01,259 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:09:01,263 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:09:01,264 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:09:02,016 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:09:02,017 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:09:02,022 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 11:09:02,023 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:12:56,382 [main.py] [<module>] [INFO] [11] 空气质量预测API-Python端服务启动！
+2021-01-08 11:15:21,061 [main.py] [<module>] [INFO] [11] 空气质量预测API-Python端服务启动！
+2021-01-08 11:15:43,088 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:15:43,101 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:15:43,108 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:15:43,111 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:15:44,063 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:15:44,068 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:15:44,090 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 11:15:44,095 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:16:03,107 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:16:03,120 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 11:16:03,130 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 11:16:03,133 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 11:16:04,019 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 11:16:04,022 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2021-01-08 11:16:04,035 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 11:16:04,038 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:04:18,725 [main.py] [<module>] [INFO] [11] 空气质量预测API-Python端服务启动！
+2021-01-08 13:04:22,005 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 13:04:22,021 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 13:04:22,058 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 13:04:22,058 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:04:23,045 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 13:04:23,049 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-08 13:04:42,048 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 13:04:42,064 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 13:04:42,131 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 13:04:42,131 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:15:16,924 [main.py] [<module>] [INFO] [11] 空气质量预测API-Python端服务启动！
+2021-01-08 13:15:22,105 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 13:15:22,124 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 13:15:22,162 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 13:15:22,164 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:15:23,015 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 13:15:23,019 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-08 13:15:23,055 [sendMsgToGo.py] [sendMsgToGo] [INFO] [18] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 13:15:23,059 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:15:42,008 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 13:15:42,031 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 13:15:42,077 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 13:15:42,079 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:15:43,023 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 13:15:43,027 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-08 13:15:43,060 [sendMsgToGo.py] [sendMsgToGo] [INFO] [18] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 13:15:43,065 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:16:02,021 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 13:16:02,040 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 13:16:02,075 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 13:16:02,076 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:16:03,010 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 13:16:03,014 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-08 13:16:03,045 [sendMsgToGo.py] [sendMsgToGo] [INFO] [18] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 13:16:03,049 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:16:21,996 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 13:16:22,018 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 13:16:22,049 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 13:16:22,052 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:16:23,010 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 13:16:23,012 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-08 13:16:23,037 [sendMsgToGo.py] [sendMsgToGo] [INFO] [18] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 13:16:23,040 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:16:42,230 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 13:16:42,250 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 13:16:42,283 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 13:16:42,287 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:16:43,017 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 13:16:43,020 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-08 13:16:43,055 [sendMsgToGo.py] [sendMsgToGo] [INFO] [18] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 13:16:43,059 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:17:02,061 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 13:17:02,078 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 13:17:02,106 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 13:17:02,109 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:17:03,012 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 13:17:03,017 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-08 13:17:03,052 [sendMsgToGo.py] [sendMsgToGo] [INFO] [18] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 13:17:03,057 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:17:21,744 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 13:17:21,764 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 13:17:21,797 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 13:17:21,801 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:17:22,006 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 13:17:22,011 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-08 13:17:42,089 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 13:17:42,110 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 13:17:42,149 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 13:17:42,153 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:17:43,030 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-08 13:17:43,033 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:35:57,946 [main.py] [<module>] [INFO] [11] 空气质量预测API-Python端服务启动！
+2021-01-08 13:36:02,282 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 13:36:02,301 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 13:36:02,338 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 13:36:02,356 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:36:03,038 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 13:36:03,042 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-08 13:36:03,074 [sendMsgToGo.py] [sendMsgToGo] [INFO] [18] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 13:36:03,079 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:36:22,264 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 13:36:22,288 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-08 13:36:22,330 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-08 13:36:22,334 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
+2021-01-08 13:36:23,033 [cronTask.py] [make_prediction] [INFO] [30] 模型计算完成！
+2021-01-08 13:36:23,036 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-08 13:36:23,072 [sendMsgToGo.py] [sendMsgToGo] [INFO] [18] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-08 13:36:23,076 [cronTask.py] [my_listener] [INFO] [41] 数据抓取和模型计算任务正常!
